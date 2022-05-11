@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.main{
+    
+    text-align: center;
+    border: 2px;
+    border-radius:  25px ;
+    height: 500px;;
+    width :400px;
+    margin:auto ;
+    margin-top: 20px;
+    background-color: white;
+}
+.image1{
+    border-radius: 5% 5% 0 0  ;
+}
+.para{
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+
+}
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-position: center;
+    background-size: contain;
+}
+.plan{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 50px;
+    background-color:hsl(225, 100%, 98%);
+    padding:5px;
+    border-radius: 5px;
+}
+.a {
+    margin-top: 10px;
+    margin-left: -25px; 
+}
+.b{
+    margin-top: 40px;
+    margin-left: -110px;
+}  
+.change{
+    margin-top: 20px;
+    margin-left:40px;
+}
+.payment{
+    margin-top: 20px;
+    width: 300px;
+    background-color: blue;  
+     margin-left: 50px;
+    color: white;
+    border-radius: 5px;
+    padding:10px;
+    box-shadow: 5px;
+
+}
+.cancel{
+    margin-top: 10px;
+    width:300px;
+    margin-left:50px;
+    font-size: 14px;
+    color:hsl(224, 23%, 55%);
+}
+    
+.change:hover{
+    text-decoration: none;
+    color:hsl(245, 75%, 52%)
+}
+.payment:hover{
+    background-color: hsl(245, 75%, 52%);
+}
+.cancel:hover{
+    color:hsl(223, 47%, 23%);
+    font-size: 15px; 
+}
